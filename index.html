@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/styles.css">
+    <title>FCC:Portfolio</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="bg-main-red">
+        <!---->
+        <nav class=" container nav flex justify-end bg-main-red  text-main-white" id="navbar" >
+            <!--Nav--Links-->
+                <a href="#welcome-section">About</a>
+                <a href="#projects">Work</a>
+                <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!--HERO-->
+        <section class="welcome-section h-screen flex flex-col justify-center items-center" id="welcome-section">
+            
+            <!--HERO-Content-->
+            <div class="mx-auto text-center">
+                <h1 class="text-hero-header">Hey I am Mimic</h1>
+                <p class="text-main-red text-5xl italic ">a web developer</p>
+            </div>
+            
+        </section>
+
+        <!--PROJECTS-->
+        <section id="projects" class="projects-section  text-center py-40 px-8 bg-main-blue">
+            <!--Projects-Header-->
+            <div class=" text-center text-project-header border-solid border-b-4 border-main-white mb-24 ">
+                <h2 class=" ">These are some of my projects</h2>
+            </div>
+            <!--Projects-Cards-->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 mb-24">
+                <!--Project #1-->
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project" target="_blank" rel="noopener noreferrer">
+                    <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg
+                    " alt="project 1" srcset="">
+                    <h3><span class="code"><</span>Tribute Page<span class="code">/></span></h3>
+                </a>
+
+                <!--Project #2-->
+                <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project" target="_blank" rel="noopener noreferrer">
+                    <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="project 2" srcset="">
+                    <h3><span class="code"><</span>Random Quote Machine<span class="code">/></span></h3>
+                </a>
+
+                <!--Project #3-->
+                <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" class="project" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project 3" srcset="">
+                    <h3><span class="code"><</span>Javascript Calculator<span class="code">/></span></h3>
+                </a>
+
+                <!--Project #4-->
+                <a href="https://codepen.io/freeCodeCamp/full/mVEJag" class="project" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="project 4" srcset="">
+                    <h3><span class="code"><</span>Map Data Across the Globe<span class="code">/></span></h3>
+                </a>
+
+                <!--Project #5-->
+                <a href="https://codepen.io/freeCodeCamp/full/wGqEga" class="project" target="_blank" rel="noopener noreferrer">
+                    <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="project 5" srcset="">
+                    <h3><span class="code"><</span>Wikipedia Viewer<span class="code">/></span></h3>
+                </a>
+
+               <!--Project #6-->
+               <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" class="project" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png
+                " alt="project 6" srcset="">
+                <h3><span class="code"><</span>Wikipedia Viewer<span class="code">/></span></h3>
+                </a>
+            </div>
+
+            <!--button-->
+            <a href="https://codepen.io/FreeCodeCamp/" target="_blank" rel="noopener noreferrer" class="bg-main-gray py-4 px-8 mx-auto rounded-sm text-main-white inline-block text-xl hover:bg-main-red transition-colors group">
+                Show all
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block group-hover:transform group-hover:translateX-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+        </section>
+    </main>
+   
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
