@@ -9,7 +9,7 @@
 body{
     line-height:1.4;
     font-weight:400;
-    @apply font-body
+    @apply font-body;
 }
 h1,h2,h3{
     @apply font-headers font-bold text-main-white;
@@ -43,9 +43,33 @@ h1,h2,h3{
 .project:hover .code{
     color:#ff7f50;
 }
-.btn:hover svg path{
-    transform: translateX(2px);
-}
-.btn svg path{
+
+.btn svg{
+    font-weight: 900;
+    position: relative;
     transition: transform 0.3s ease-out;
 }
+.btn:hover svg{
+    transform: translateX(2px);
+}
+svg path{
+    width:2rem;
+    height:2rem;
+}
+
+/*Contact-Section*/
+.contact-links a{
+    @apply  relative flex py-4 px-8 text-4xl text-main-white hover:transform hover:translate-y-2 transition-transform;
+}
+.contact-links a svg{
+    width:3.5rem;
+    height:2.5rem;
+}
+.contact-links a svg path{
+    @apply shadow-md;
+}
+
+/*FOOTER*/
+ footer p{
+     @apply m-8;
+ }

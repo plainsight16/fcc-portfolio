@@ -20,7 +20,8 @@ module.exports = {
         "nav-link":"2.2rem",
         "hero-header":"6rem",
         "project-header":"4.2rem",
-        "project-title":"2rem"
+        "project-title":"2rem",
+        "general":"1.8rem"
       },
     },
    
